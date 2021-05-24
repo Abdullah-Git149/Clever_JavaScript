@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container__1{
+    border: 1px solid blue;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.flex__box__container1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Challange 2 ----------------------- */
+.container__2{
+    border: 1px solid red;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex__box__container2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    border: 1px solid rebeccapurple;
+}
+.flex__box__container2 img{
+    width: 23%;
+    margin: 10px 0;
+}
+.container__3{
+    border: 1px solid red;
+    width: 80%;
+text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container__3 img{
+    width: 150px;
+    height: 150px;
+}
+.rpc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px ;
+}
+.rpc img:hover{
+    box-shadow: 0 10px 50px rgba(37, 50, 233, 1) ;
+}
+
+ /* challange 4 ========= */
+.container__4{
+    border: 1px solid red;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.flex-box-pick-color{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* challnageee 5    */
+.container__5{
+    border: 1px solid red;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+.blackjack_row1 , .blackjack_row2,.blackjack_row3{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+}
+.blackjack_row1, .blackjack_row2 {
+    background: url("https://img.freepik.com/free-photo/dark-green-matt-suede-fabric-velvet-texture_113767-224.jpg?size=626&ext=jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.blackjack_row1 div{
+    height: 50vh ;
+    border: 1px solid black;
+    padding: 20px;
+    flex: 1;
+}
+.blackjack_row1 img{
+    width: 25%;
+    padding: 10px;
+}
+table , th, td{
+    border: 1px solid black;
+    padding :5px;
+}
+#yourbox_result,#dealerbox_result{
+    margin: 0 5px;
+
+}
